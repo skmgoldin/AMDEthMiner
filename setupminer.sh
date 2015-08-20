@@ -42,7 +42,5 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo reboot
 
 # Run
-# cd ~/go-ethereum/build/bin/
 # nohup geth --rpc --etherbase "0x753562eea69cd2d342a9c07edd49b9753dc0f01e" --genesis ~/genesis.json > ~/geth.log &
-# cd ~/cpp-ethereum/build/ethminer
 # nohup sudo ethminer -G -t 4 > ~/ethminer.log &
