@@ -34,9 +34,6 @@ sudo apt-get install cpp-ethereum -y
 sudo apt-get install -y ubuntu-drivers-common
 sudo apt-get install -y fglrx-updates
 
-# Get genesis
-curl blockapps.net/genesis_block.json > ~/genesis.json
-
 # Reboot
 sudo apt-get update && sudo apt-get upgrade -y
 sudo reboot
